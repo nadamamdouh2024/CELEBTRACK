@@ -111,7 +111,7 @@ lib/
 ## 📄 License & Copyright
 
 
-Copyright © 2026  **  Nada Mamdouh  ** . All rights reserved.
+Copyright © 2026    **Nada Mamdouh**  . All rights reserved.
 
 This project is open source and available under the terms of the [MIT License](LICENSE).
 
