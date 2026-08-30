@@ -1,5 +1,15 @@
 # 🌟 CelebTrack - Celebrity Discovery & AI Assistant
 
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/FLUTTER-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/DART-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![BLoC](https://img.shields.io/badge/BLoC-CUBIT-blueviolet?style=for-the-badge&logo=bloc&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/GEMINI%20AI-3.6%20FLASH-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![License](https://img.shields.io/badge/LICENSE-MIT-yellow.svg?style=for-the-badge)
+
+</div>
+
 A modern, cross-platform Flutter application designed for exploring popular celebrities, discovering detailed biographies, managing favorites, and interacting with an AI Chatbot powered by Google's Gemini API.
 
 ---
