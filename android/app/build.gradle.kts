@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.celeb_track"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

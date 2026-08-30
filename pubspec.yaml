@@ -30,6 +30,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.6.0
+  bloc: ^9.2.1
+  flutter_bloc: ^9.1.1
+  equatable: ^2.1.0
+  google_generative_ai: ^0.4.7
+  cached_network_image: ^3.4.1
+  insta_image_viewer: ^1.0.4
+  image_gallery_saver_plus: ^5.1.1
+  permission_handler: ^13.0.1
+  shared_preferences: ^2.5.5
+  flutter_native_splash: ^2.4.8
+  flutter_launcher_icons: ^0.14.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -56,6 +68,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - Assets/Images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -87,3 +101,13 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  image_path: "Assets/Images/Logo.jpg"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: Assets/Images/Logo.jpg
+  android_gravity: center
