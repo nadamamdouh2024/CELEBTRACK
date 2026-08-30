@@ -75,6 +75,7 @@ lib/
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone [https://github.com/nadamamdouh2024/CELEBTRACK.git](https://github.com/nadamamdouh2024/CELEBTRACK.git)
    cd CELEBTRACK
@@ -82,6 +83,7 @@ lib/
 
 
 2. **Install dependencies:**
+   
    ```bash
    flutter pub get  
 
@@ -98,6 +100,7 @@ lib/
 
 ---
 4. **Run the app:**
+   
      ```bash
      flutter run
 
@@ -105,16 +108,15 @@ lib/
 ---
 
 
-
-## 👩‍💻 Author
-
-
-  **Nada Mamdouh**
-  
-*(AI Engineer & Softmare Developer)*  
+## 📄 License & Copyright
 
 
+Copyright © 2026  **  Nada Mamdouh  ** . All rights reserved.
 
+This project is open source and available under the terms of the [MIT License](LICENSE).
+
+
+---
 
 
 
