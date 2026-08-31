@@ -87,7 +87,7 @@ lib/
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/nadamamdouh2024/CELEBTRACK.git](https://github.com/nadamamdouh2024/CELEBTRACK.git)
+   git clone https://github.com/nadamamdouh2024/CELEBTRACK.git
    cd CELEBTRACK
 ---
 
@@ -101,11 +101,11 @@ lib/
 
 3. **Configure API Key:**
    
-   Add your Gemini API key in lib/Core/App_Apis/app_apis.dart:
+   Add Gemini API key in (lib/Core/App_Apis/app_apis.dart):
    
    ```Dart
    class AppApis {
-      static const String geminiApiKey = 'YOUR_GEMINI_API_KEY';
+      static const String geminiApiKey = 'GEMINI_API_KEY';
    } 
 
 ---
@@ -115,21 +115,42 @@ lib/
      flutter run
 
 
+     
 ---
 
+## 🤝 Contributing & Community
+
+Contributions, issues, and feature requests are always welcome! Feel free to check the [Issues](../../issues) page to collaborate or report feedback.
+
+---
+
+## 👩‍💻 Author
+
+**Nada Mamdouh** 
+
+*AI Engineer & Software Developer*  
+
+[![GitHub](https://img.shields.io/badge/GitHub-nadamamdouh2024-181717?style=flat&logo=github)](https://github.com/nadamamdouh2024)
+
+---
 
 ## 📄 License & Copyright
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright © 2026    **Nada Mamdouh**  . All rights reserved.
+Copyright © 2026 **Nada Mamdouh**. All rights reserved.
 
-This project is open source and available under the terms of the [MIT License](LICENSE).
-
+This project is open-source and available under the terms of the [MIT License](LICENSE).
 
 ---
 
+<div align="center">
 
+**Crafted with 💙 and Flutter**
 
+</div>
+
+---
 
 
 
