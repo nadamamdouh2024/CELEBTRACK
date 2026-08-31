@@ -20,6 +20,13 @@
 A modern, cross-platform Flutter application designed for exploring popular celebrities, discovering detailed biographies, managing favorites, and interacting with an AI Chatbot powered by Google's Gemini API.
 
 ---
+<p align="center">
+  <a href="https://nadamamdouh2024.github.io/CELEBTRACK/">
+    <img src="https://img.shields.io/badge/Live_Demo-CelebTrack-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
+---
 
 ## 📱 Features
 
