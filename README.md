@@ -1,4 +1,11 @@
-# 🌟 CelebTrack - Celebrity Discovery & AI Assistant
+<div align="center">
+
+  <img src="Assets/Images/Logo.jpg" alt="CelebTrack Logo" width="300" height="500" style="border-radius: 50%;" />
+
+  # 🌟 CelebTrack
+  **Celebrity Discovery & AI Assistant**
+
+</div>
 
 <div align="center">
 
