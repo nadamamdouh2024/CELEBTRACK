@@ -6,7 +6,7 @@ class AppApis {
 
   // API Key
   static const String apiKey = '2dfe23358236069710a379edd4c65a6b';
-  static const String geminiApiKey = 'AQ.Ab8RN6L01q2LrPbcHDzzWuB-XKQE1UD0A8YkwuhEEMG8Yh1r7A';
+  static const String geminiApiKey = 'AQ.Ab8RN6Jszfumyq3rWSBYurJ62xduzudUO1oDc-gpJRUfQK7YJQ';
 
   // Endpoints
   static const String popularPersons = '$baseUrl/person/popular?api_key=$apiKey';

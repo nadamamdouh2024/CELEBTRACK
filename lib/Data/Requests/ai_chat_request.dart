@@ -6,9 +6,11 @@ class AiChatRequest {
   final List<Map<String, dynamic>> _history = [];
 
   Future<String> sendMessage(String message) async {
+
     final url = Uri.parse(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${AppApis.geminiApiKey}',
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent',
     );
+    final currentDate = DateTime.now().toIso8601String().split('T').first;
 
     _history.add({
       'role': 'user',
@@ -17,19 +19,24 @@ class AiChatRequest {
       ]
     });
 
-
-    final recentHistory = _history.length > 6
-        ? _history.sublist(_history.length - 6)
+    final recentHistory = _history.length > 3
+        ? _history.sublist(_history.length - 3)
         : _history;
 
     try {
       final response = await http.post(
         url,
-        headers: {'Content-Type': 'application/json'},
+
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': AppApis.geminiApiKey.trim(),
+        },
         body: json.encode({
           'systemInstruction': {
             'parts': [
-              {'text': 'You are a helpful and concise assistant. Answer directly and avoid unnecessary introductory filler.'}
+              {
+                'text': 'You are a helpful and concise assistant. Today\'s date is $currentDate. Answer directly, accurately, and avoid unnecessary filler.'
+              }
             ]
           },
           'contents': recentHistory,
@@ -56,6 +63,7 @@ class AiChatRequest {
         throw Exception(errorMessage);
       }
     } catch (e) {
+
       if (_history.isNotEmpty && _history.last['role'] == 'user') {
         _history.removeLast();
       }
