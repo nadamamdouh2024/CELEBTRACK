@@ -105,7 +105,6 @@ lib/
    cd CELEBTRACK
 ---
 
-
 2. **Install dependencies:**
    
    ```bash
@@ -113,23 +112,24 @@ lib/
 
 ---
 
-3. **Configure API Key:**
-   
-   Add Gemini API key in (lib/Core/App_Apis/app_apis.dart):
-   
-   ```Dart
-   class AppApis {
-      static const String geminiApiKey = 'GEMINI_API_KEY';
-   } 
+3. **Configure Environment Secrets (`.env`):**
 
----
+   Duplicate `.env.example` to create your local `.env` file in the root directory:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   Add your secret API keys inside `.env`:
+
+   ```env
+   TMDB_API_KEY=your_actual_tmdb_key_here
+   GEMINI_API_KEY=your_actual_gemini_key_here
+   ```
 4. **Run the app:**
    
      ```bash
-     flutter run
-
-
-     
+     flutter run    
 ---
 
 ## 🤝 Contributing & Community
