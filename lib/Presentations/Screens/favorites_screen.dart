@@ -29,6 +29,7 @@ class FavoritesScreen extends StatelessWidget {
           ),
         ),
       ),
+
       body: Container(
         margin: const EdgeInsets.only(top: 16),
         decoration: const BoxDecoration(
