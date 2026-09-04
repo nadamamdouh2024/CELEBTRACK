@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'Data/Requests/ai_chat_request.dart';
 import 'Data/Requests/person_details_request.dart';
 import 'Data/Requests/person_images_request.dart';
@@ -13,11 +13,12 @@ import 'Presentations/cubitsDetails/details_cubit.dart';
 import 'Presentations/cubitsFavorite/favorite_cubit.dart';
 import 'Presentations/cubitsChat/chat_cubit.dart';
 
-void main() {
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+void main()
+   async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await dotenv.load(fileName: ".env");
+    runApp(const MyApp());
 
-  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
