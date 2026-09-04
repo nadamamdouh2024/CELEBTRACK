@@ -126,6 +126,7 @@ lib/
    TMDB_API_KEY=your_actual_tmdb_key_here
    GEMINI_API_KEY=your_actual_gemini_key_here
    ```
+---
 4. **Run the app:**
    
      ```bash
